@@ -32,3 +32,13 @@ public void setNome(String nome);
 public String getNome();
 public void setPreco(double preco);
 public double getPreco();
+
+##### Autores:
+
+| Nome           | GitHub                                                  |
+|----------------|---------------------------------------------------------|
+| Pedro Augusto  | [@pedrrodev](https://github.com/pedrrodev)              |
+| Pedro de Paula | [@pedro-de-paula](https://github.com/pedro-de-paula)    |
+| Sabrina de Sá  | [@sabrinabispodesa](https://github.com/sabrinabispodesa)|
+| Ryan Muto      | [@RyanMFroes](https://github.com/RyanMFroes)            |
+| Rafaela Leite  | [@RafissEtiel](https://github.com/RafissEtiel)          |
