@@ -32,6 +32,7 @@ public void setNome(String nome);
 public String getNome();
 public void setPreco(double preco);
 public double getPreco();
+```
 
 ##### Autores:
 
