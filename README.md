@@ -34,7 +34,8 @@ public void setPreco(double preco);
 public double getPreco();
 ```
 
-##### Autores:
+---
+##### 👨‍💻 Autores:
 
 | Nome           | GitHub                                                  |
 |----------------|---------------------------------------------------------|
