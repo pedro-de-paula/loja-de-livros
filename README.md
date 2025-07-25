@@ -1,3 +1,4 @@
+
 # 📚 Sistema de Compra de Livros em Java - Curso Introdução à Linguagem Java - Senac SP
 
 Este projeto é um programa simples em Java que simula a compra de livros por diferentes gêneros. O usuário pode escolher entre categorias como **Aventura**, **Romance**, **Mistério** e **Ciência**, selecionar livros e ver o valor total da compra.
@@ -13,29 +14,32 @@ O sistema permite que o usuário:
 - Selecione livros para adicionar ao carrinho.
 - Finalize a compra e veja o total.
 
+O código está dividido em duas classes principais: `Livro` e `Main`
+
 ---
 
 ## 📦 Estrutura do Código
 
-### 📁 Classe `Livro`
+ 1. 📁 Classe `Livro`
 
-A classe `Livro` representa um livro com:
+A classe `Livro` contém as variáveis referentes ao nome do livro e ao preço, do tipo String e double, respectivamente, um método construtor e as funções *getters* e *setters*.
 
-- `nome`: o nome do livro.
-- `preco`: o preço do livro.
+2. 📁 Classe `Main`
 
-#### Métodos disponíveis:
+A classe `Main`contém a lógica de interação com o usuário, menu de escolha de gêneros e livros, além do controle do carrinho e total da compra, utilizando as funções *switch* e *do/while*. Na classe ainda foram instanciados os objetos (livros).
+
+### Métodos disponíveis:
 
 ```java
 public Livro(String nome, double preco); // Construtor
-public void setNome(String nome);
-public String getNome();
-public void setPreco(double preco);
-public double getPreco();
+public void setNome(String nome); // Setter
+public String getNome(); // Getter
+public void setPreco(double preco); // Setter
+public double getPreco(); // Getter
 ```
 
 ---
-##### 👨‍💻 Autores:
+#### 👨‍💻 Autores:
 
 | Nome           | GitHub                                                  |
 |----------------|---------------------------------------------------------|
